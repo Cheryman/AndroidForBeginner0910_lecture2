@@ -4,20 +4,10 @@ import java.util.Scanner;
 
 public class Main {
 
+    static long a = 1L;
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        while (true) {
-            System.out.println("Введи true или false!!!!:");
-            String result = scanner.nextLine();
-            if ("exit".equals(result)) {
-                System.out.println("Пока!");
-                return;
-            }
-
-            boolean value = Boolean.valueOf(result);
-            System.out.println("Value: " + value);
-        }
+        int value = (int) a;
+        int result = (int) (1232213232L * 1233312321);
     }
 }
